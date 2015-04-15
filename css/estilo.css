@@ -1,0 +1,530 @@
+body {
+	
+}
+#tablero {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border:1px solid #333333;
+	background-color:#FFFFFF;
+	margin: 40px auto;
+} 
+.a8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+#brock {
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	width: 10px;
+	height: 10px;
+}
+.b8 {
+	position: absolute;
+	left: 75px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.c8 {
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.d8 {
+	position: absolute;
+	left: 225px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.e8 {
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.f8 {
+	position: absolute;
+	left: 375px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.g8 {
+	position: absolute;
+	left: 450px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.h8 {
+	position: absolute;
+	left: 525px;
+	top: 0px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.a7 {
+	position: absolute;
+	left: 0px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.b7 {
+	position: absolute;
+	left: 75px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.c7 {
+	position: absolute;
+	left: 150px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.d7 {
+	position: absolute;
+	left: 225px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.e7 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.f7 {
+	position: absolute;
+	left: 375px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.g7 {
+	position: absolute;
+	left: 450px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.h7 {
+	position: absolute;
+	left: 525px;
+	top: 75px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.a6 {
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.b6 {
+	position: absolute;
+	left: 75px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.c6 {
+	position: absolute;
+	left: 150px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.d6 {
+	position: absolute;
+	left: 225px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.e6 {
+	position: absolute;
+	left: 300px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.f6 {
+	position: absolute;
+	left: 375px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.g6 {
+	position: absolute;
+	left: 450px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.h6 {
+	position: absolute;
+	left: 525px;
+	top: 150px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.a5 {
+	position: absolute;
+	left: 0px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.b5 {
+	position: absolute;
+	left: 75px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.c5 {
+	position: absolute;
+	left: 150px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.d5 {
+	position: absolute;
+	left: 225px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.e5 {
+	position: absolute;
+	left: 300px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.f5 {
+	position: absolute;
+	left: 375px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.g5 {
+	position: absolute;
+	left: 450px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.h5 {
+	position: absolute;
+	left: 525px;
+	top: 225px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.a4 {
+	position: absolute;
+	left: 0px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.b4 {
+	position: absolute;
+	left: 75px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.c4 {
+	position: absolute;
+	left: 150px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.d4 {
+	position: absolute;
+	left: 225px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.e4 {
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.f4 {
+	position: absolute;
+	left: 375px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.g4 {
+	position: absolute;
+	left: 450px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.h4 {
+	position: absolute;
+	left: 525px;
+	top: 300px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.a3 {
+	position: absolute;
+	left: 0px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.b3 {
+	position: absolute;
+	left: 75px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.c3 {
+	position: absolute;
+	left: 150px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.d3 {
+	position: absolute;
+	left: 225px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.e3 {
+	position: absolute;
+	left: 300px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.f3 {
+	position: absolute;
+	left: 375px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.g3 {
+	position: absolute;
+	left: 450px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.h3 {
+	position: absolute;
+	left: 525px;
+	top: 375px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.a2 {
+	position: absolute;
+	left: 0px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.b2 {
+	position: absolute;
+	left: 75px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.c2 {
+	position: absolute;
+	left: 150px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.d2 {
+	position: absolute;
+	left: 225px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.e2 {
+	position: absolute;
+	left: 300px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.f2 {
+	position: absolute;
+	left: 375px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.g2 {
+	position: absolute;
+	left: 450px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.h2 {
+	position: absolute;
+	left: 525px;
+	top: 450px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.a1 {
+	position: absolute;
+	left: 0px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.b1 {
+	position: absolute;
+	left: 75px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.c1 {
+	position: absolute;
+	left: 150px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.d1 {
+	position: absolute;
+	left: 225px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.e1 {
+	position: absolute;
+	left: 300px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.f1 {
+	position: absolute;
+	left: 375px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
+.g1 {
+	position: absolute;
+	left: 450px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.h1 {
+	position: absolute;
+	left: 525px;
+	top: 525px;
+	width: 75px;
+	height: 75px;
+	background-color: white;
+}
