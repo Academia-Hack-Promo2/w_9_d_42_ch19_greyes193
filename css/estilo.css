@@ -19,10 +19,9 @@ body {
 }
 #brock {
 	position: absolute;
-	left: 25px;
-	top: 25px;
-	width: 10px;
-	height: 10px;
+	left: 20px;
+	top: 15px;
+	font-size: 40px;
 }
 .b8 {
 	position: absolute;
