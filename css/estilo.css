@@ -9,521 +9,276 @@ body {
 	background-color:#FFFFFF;
 	margin: 40px auto;
 } 
-.a8 {
+[class*="cuadro"]{
 	position: absolute;
+	width: 75px;
+	height: 75px;
+}
+[class*="white"]{
+	background-color: white;
+}
+[class*="black"]{
+	background-color: burlywood;
+}
+[id*="piece"]{
+	position: absolute;
+	left: 14px;
+	top: 5px;
+	font-size: 50px;
+}
+.cuadroa8white {
 	left: 0px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-#brock {
-	position: absolute;
-	left: 20px;
-	top: 15px;
-	font-size: 40px;
-}
-.b8 {
-	position: absolute;
+.cuadrob8black {
 	left: 75px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.c8 {
-	position: absolute;
+.cuadroc8white {
 	left: 150px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.d8 {
-	position: absolute;
+.cuadrod8black {
 	left: 225px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.e8 {
-	position: absolute;
+.cuadroe8white {
 	left: 300px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.f8 {
-	position: absolute;
+.cuadrof8black {
 	left: 375px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.g8 {
-	position: absolute;
+.cuadrog8white {
 	left: 450px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.h8 {
-	position: absolute;
+.cuadroh8black {
 	left: 525px;
 	top: 0px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.a7 {
-	position: absolute;
+.cuadroa7black {
 	left: 0px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.b7 {
-	position: absolute;
+.cuadrob7white {	
 	left: 75px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.c7 {
-	position: absolute;
+.cuadroc7black {
 	left: 150px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.d7 {
-	position: absolute;
+.cuadrod7white {
 	left: 225px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.e7 {
-	position: absolute;
+.cuadroe7black {
 	left: 300px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.f7 {
-	position: absolute;
+.cuadrof7white {
 	left: 375px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.g7 {
-	position: absolute;
+.cuadrog7black {
 	left: 450px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.h7 {
-	position: absolute;
+.cuadroh7white {
 	left: 525px;
 	top: 75px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.a6 {
-	position: absolute;
+.cuadroa6white {
 	left: 0px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.b6 {
-	position: absolute;
+.cuadrob6black {
 	left: 75px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.c6 {
-	position: absolute;
+.cuadroc6white {
 	left: 150px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.d6 {
-	position: absolute;
+.cuadrod6black {
 	left: 225px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.e6 {
-	position: absolute;
+.cuadroe6white {
 	left: 300px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.f6 {
-	position: absolute;
+.cuadrof6black {
 	left: 375px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.g6 {
-	position: absolute;
+.cuadrog6white {
 	left: 450px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.h6 {
-	position: absolute;
+.cuadroh6black {
 	left: 525px;
 	top: 150px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.a5 {
-	position: absolute;
+.cuadroa5black {
 	left: 0px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.b5 {
-	position: absolute;
+.cuadrob5white {
 	left: 75px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.c5 {
-	position: absolute;
+.cuadroc5black {
 	left: 150px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.d5 {
-	position: absolute;
+.cuadrod5white {
 	left: 225px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.e5 {
-	position: absolute;
+.cuadroe5black {
 	left: 300px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.f5 {
-	position: absolute;
+.cuadrof5white {
 	left: 375px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.g5 {
-	position: absolute;
+.cuadrog5black {
 	left: 450px;
-	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
+	top: 225px;;
 }
-.h5 {
-	position: absolute;
+.cuadroh5white {
 	left: 525px;
 	top: 225px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.a4 {
-	position: absolute;
+.cuadroa4white {
 	left: 0px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.b4 {
-	position: absolute;
+.cuadrob4black {
 	left: 75px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.c4 {
-	position: absolute;
+.cuadroc4white {
 	left: 150px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.d4 {
-	position: absolute;
+.cuadrod4black {
 	left: 225px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.e4 {
-	position: absolute;
+.cuadroe4white {
 	left: 300px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.f4 {
-	position: absolute;
+.cuadrof4black {
 	left: 375px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.g4 {
-	position: absolute;
+.cuadrog4white {
 	left: 450px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.h4 {
-	position: absolute;
+.cuadroh4black {
 	left: 525px;
 	top: 300px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.a3 {
-	position: absolute;
+.cuadroa3black {
 	left: 0px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.b3 {
-	position: absolute;
+.cuadrob3white {
 	left: 75px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.c3 {
-	position: absolute;
+.cuadroc3black {
 	left: 150px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.d3 {
-	position: absolute;
+.cuadrod3white {
 	left: 225px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.e3 {
-	position: absolute;
+.cuadroe3black {
 	left: 300px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.f3 {
-	position: absolute;
+.cuadrof3white {
 	left: 375px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.g3 {
-	position: absolute;
+.cuadrog3black {
 	left: 450px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.h3 {
-	position: absolute;
+.cuadroh3white {
 	left: 525px;
 	top: 375px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.a2 {
-	position: absolute;
+.cuadroa2white {
 	left: 0px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.b2 {
-	position: absolute;
+.cuadrob2black {
 	left: 75px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.c2 {
-	position: absolute;
+.cuadroc2white {
 	left: 150px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.d2 {
-	position: absolute;
+.cuadrod2black {
 	left: 225px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.e2 {
-	position: absolute;
+.cuadroe2white {
 	left: 300px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.f2 {
-	position: absolute;
+.cuadrof2black {
 	left: 375px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.g2 {
-	position: absolute;
+.cuadrog2white {
 	left: 450px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.h2 {
-	position: absolute;
+.cuadroh2black {
 	left: 525px;
 	top: 450px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.a1 {
-	position: absolute;
+.cuadroa1black {
 	left: 0px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.b1 {
-	position: absolute;
+.cuadrob1white {
 	left: 75px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.c1 {
-	position: absolute;
+.cuadroc1black {
 	left: 150px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.d1 {
-	position: absolute;
+.cuadrod1white {
 	left: 225px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.e1 {
-	position: absolute;
+.cuadroe1black {
 	left: 300px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.f1 {
-	position: absolute;
+.cuadrof1white {
 	left: 375px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
-.g1 {
-	position: absolute;
+.cuadrog1black {
 	left: 450px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: burlywood;
 }
-.h1 {
-	position: absolute;
+.cuadroh1white {
 	left: 525px;
 	top: 525px;
-	width: 75px;
-	height: 75px;
-	background-color: white;
 }
